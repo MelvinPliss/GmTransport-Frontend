@@ -1,0 +1,43 @@
+# Dependencias
+/node_modules
+/jspm_packages
+/pnp
+.pnp.js
+
+# Archivos de compilación y salida de Vite
+/dist
+/dist-ssr
+
+# Entornos de ejecución y registros
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cobertura de pruebas y caché
+/coverage
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+.vite
+
+# Entorno y variables de entorno locales
+*.local
+
+# Configuraciones y carpetas del editor (IDE)
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
